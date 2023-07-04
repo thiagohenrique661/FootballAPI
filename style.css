@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff
+}
+
+
+
+#conteudoPartida h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#conteudoPartida {
+    background-color: #F2F2F2;
+    width: 50vw;
+    margin: 0 auto;
+    border: 1px solid #8A8A8A;
+    margin-top:10%;
+    border-radius: 10px;
+}
+
+#conteudoPartida h4{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#conteudoPartida p{
+    text-align: center;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#conteudoPartida img{
+    width: 50px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.btn{
+    font-size: 1em;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 44%;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: yellow;
+}
